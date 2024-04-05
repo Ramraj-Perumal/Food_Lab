@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo{
+    width: 210px;
+    height: 80px;
+}
+
+.nav-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #519259;
+    margin-right: 10px;
+    transition: 0.3s ;
+    text-decoration: none;
+}
+
+.home{
+    color: #519259 !important;
+    border-bottom: 3px solid #278233;
+    border-radius: 3px;
+}
+
+.nav-link:hover{
+    color: #519259 !important;
+    border: none;
+    border-bottom: 3px solid #278233;
+    border-radius: 3px;
+}
+
+.navbar.shadow-bottom {
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.btn1{
+padding: 8px 20px;
+background-color: #278233;
+color: white;
+border: none;
+border-radius: 5px;
+}
+
+/* hero */
+
+.hero{
+    background: url("./images/img2.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.hero h1{
+    font-size: 2.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.hero p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+
+.hero .btn1{
+    text-align: left !important;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+/* ---intro--- */
+
+
+.intro h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+}
+
+.intro .side{
+    background: #8eb892;
+    border-radius: 22% 78% 75% 25% / 49% 75% 25% 51%;
+}
+
+.intro .main{
+    background: #519259;
+    padding: 15px;
+    border-radius: 22% 78% 75% 25% / 49% 75% 25% 51%;
+    z-index: 1;
+    bottom: 120px;
+    left: 20px;
+}
+
+.intro .content{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+/* footer */
+
+.footer{
+    color: black;
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer .address{
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.footer .content{
+    background-color: #F4EEA9;
+    padding: 10px;
+}
+
+.footer p{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+.foot{
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (min-width:430px){
+
+}
